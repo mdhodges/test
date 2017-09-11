@@ -1,0 +1,28 @@
+#Data Frame of my Data Science Profile:
+
+> meganh<-c(3,4,1,3,2,5,5,3)
+> megan<-matrix(meganh, nrow=8, ncol=1)
+> categories <- c(computer programming", "math", "statistics", "machine learning", "domain expertise", "communication", "presentation skills", "data visualization")
+Error: unexpected symbol in "categories <- c(computer programming"
+> categories <- c("computer programming", "math", "statistics", "machine learning", "domain expertise", "communication", "presentation skills", "data visualization")
+> megandh<-data.frame(categories, megan)
+> cnames<-("category", "ranking")
+Error: unexpected ',' in "cnames<-("category","
+> cnames<-c("category", "ranking")
+> colnames(megandh)<-cnames
+> megandh
+              category ranking
+1 computer programming       3
+2                 math       4
+3           statistics       1
+4     machine learning       3
+5     domain expertise       2
+6        communication       5
+7  presentation skills       5
+8   data visualization       3
+
+#Bar Graph of Data Science Profile below:
+> score <- c(3,4,1,3,2,5,5,3)
+> categories <- c("computer programming", "math", "statistics", "machine learning", "domain expertise", "communication", "presentation skills", "data visualization")
+> barplot(score,names.arg=categories)
+> barplot(score,names.arg=categories, xlab = "Categories", ylab = "Ranking", main = "Data Science Profile", col = "blue", border = "red")
