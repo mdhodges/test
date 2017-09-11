@@ -1,3 +1,2 @@
-# test
-Test Repo
-#This testrepo is for all my MSDS6303 assignments.
+# stat6306introdatascience
+Files and projects for Stat 6306 Introduction to Data Science
